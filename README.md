@@ -9,6 +9,15 @@ This library does not provide any implementation, but rather provides the common
 This is being provided as a prototype library. I am currently developing a game (Penta Terra) and do not have time to fully 
 invest in this. Please feel free to use this concept if you are interesting in building it out. 
 
+# Setup
+
+Add the following to your dependencies section:
+
+```toml
+# Core library, include any desired features (glam, image, web-time)
+pgfx = { git = "https://github.com/tilde35/pgfx", features = [""]}
+```
+
 # Problems with Existing Graphics Libraries
 
 - Redundant code
